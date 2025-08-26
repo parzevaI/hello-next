@@ -2,7 +2,11 @@ import React from 'react';
 
 function Home() {
   return (
-    <main>
+    <main
+      style={{
+        backgroundColor: 'tomato',
+      }}
+    >
       <h1>Hello Next!</h1>
     </main>
   );
